@@ -114,4 +114,4 @@ python -m streamlit run app.py
 
 Проект демонстрирует навыки обработки и анализа данных с помощью Pandas, создания интерактивных визуализаций Plotly и разработки аналитических приложений на Streamlit.
 
-🌐 **Live Demo:** https://kirillglushenko-imdb-analytics-dashboard-app-omuy0ll.streamlit.app
+🌐 **Live Demo:** https://kirillglushenko-imdb-analytics-dashboard-app-omuy0l.streamlit.app/
