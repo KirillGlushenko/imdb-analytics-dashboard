@@ -22,14 +22,14 @@ st.divider()
 
 @st.cache_data
 def load_data():
-    data_path = Path(__file__).resolve().parent / "imdb_clean.csv"
-    return pd.read_csv(data_path)
+    data_path = Path(__file__).resolve().parent / "imdb_clean.csv.gz"
+    return pd.read_csv(data_path, compression="gzip")
 
 
 try:
     df = load_data()
 except FileNotFoundError:
-    st.error("Файл imdb_clean.csv не найден в папке проекта.")
+    st.error("Файл imdb_clean.csv.gz не найден в папке проекта.")
     st.stop()
 
 # Рассчитываем реальные показатели
